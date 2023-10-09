@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<body>
+    
+    <title>Teknologi dan Pembelajaran</title>
+
+    <!-- Style untuk mengatur tampilan -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            margin: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #3498db;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #555;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Heading 1 -->
+    <h1>Selamat Datang di Platform Pembelajaran Teknologi</h1>
+
+    <!-- Paragraf -->
+    <p>Temukan inovasi terbaru dalam dunia teknologi dan tingkatkan pengetahuan Anda!</p>
+
+    <!-- Paragraf dengan formatting -->
+    <p><em>Belajar tidak pernah semudah ini!</em> Kami menyediakan sumber daya terkini untuk membantu Anda meraih kesuksesan dalam dunia teknologi.</p>
+
+    <!-- Link ke sumber daya pembelajaran -->
+    <p>Untuk memulai, kunjungi <a href="https://www.learn-tech.com"> Selengkapnya......</a></p>
+
+    <!-- Gambar tema teknologi -->
+    <img src="TugasPemrograman/image/gambar.jpg" alt="">
+
+     <!-- Style untuk mengatur tampilan tabel dan formulir -->
+     <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            margin: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #3498db;
+            color: #fff;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        form {
+            margin-top: 20px;
+            max-width: 500px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 12px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #3498db;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Tabel -->
+    <table>
+        <thead>
+            <tr>
+                <th>Nama Teknologi</th>
+                <th>Deskripsi</th>
+                <th>Tingkat Kesulitan</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Artificial Intelligence</td>
+                <td>Sistem komputer yang dapat melakukan tugas yang membutuhkan kecerdasan manusia.</td>
+                <td>Advanced</td>
+            </tr>
+            <tr>
+                <td colspan="2">Melibatkan penggunaan algoritma pembelajaran mesin dan pengolahan bahasa alami.</td>
+            </tr>
+            <tr>
+                <td>Augmented Reality</td>
+                <td>Menggabungkan elemen dunia nyata dengan elemen virtual menggunakan teknologi.</td>
+                <td>Intermediate</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Formulir -->
+    <form action="/proses-formulir" method="post">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="teknologi">Teknologi Pilihan:</label>
+        <select id="teknologi" name="teknologi">
+            <option value="ai">Artificial Intelligence</option>
+            <option value="ar">Augmented Reality</option>
+            <!-- Tambahkan opsi lain sesuai kebutuhan -->
+        </select>
+
+        <label for="pesan">Pesan Tambahan:</label>
+        <textarea id="pesan" name="pesan" rows="4"></textarea>
+
+        <input type="submit" value="Kirim">
+    </form>
+
+</body>
+
+</html>
